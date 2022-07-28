@@ -42,6 +42,10 @@ span {
     color: #007bff;
 }
 
+li::marker {
+    font-weight: bold;
+}
+
 #self {
     height: 200px;
     border-radius: 50%;
@@ -49,11 +53,27 @@ span {
 }
 
 #conhecimentos {
-    font-size: x-large;
+    font-size: large;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
 }
+
+#conhecimentos li {
+    padding: 5px;
+}
+
+#objetivos {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#objetivos li {
+    padding: 5px;
+} 
+
 
 #large {
     display: flex;
