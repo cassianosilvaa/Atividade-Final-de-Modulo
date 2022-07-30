@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: #007bff;
-    width: 250px;
+    width: 240px;
     display: flex;
     max-width: 100vh;
     justify-content: center;
@@ -42,6 +42,10 @@ span {
     color: #007bff;
 }
 
+li {
+    padding: 5px;
+}
+
 li::marker {
     font-weight: bold;
 }
@@ -59,21 +63,12 @@ li::marker {
     padding-left: 20px;
 }
 
-#conhecimentos li {
-    padding: 5px;
-}
-
 #objetivos {
     font-size: large;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
 }
-
-#objetivos li {
-    padding: 5px;
-} 
-
 
 #large {
     display: flex;
